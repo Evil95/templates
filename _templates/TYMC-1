@@ -75,7 +75,7 @@ Module 54
 
 Disable multipress button options to prevent a device reset or Wi-Fi AP config mode, disable Power Cycle recovery, turn on TuyaReceived publish to MQTT and set switchmode to follow instead of toggle
 ```console
-Backlog SetOption1 1; SetOption65 1; SetOption66 1; SwitchMode 1
+Backlog SetOption1 1; SetOption65 1; SetOption66 1
 ```
 
 Switch the device to battery powered sensor mode (fnId 51):
